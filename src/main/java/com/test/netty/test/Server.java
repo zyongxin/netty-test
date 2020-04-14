@@ -1,6 +1,5 @@
 package com.test.netty.test;
 
-import com.test.netty.helloworld.TestServiceInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
