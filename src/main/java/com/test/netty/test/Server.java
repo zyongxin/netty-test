@@ -11,7 +11,7 @@ public class Server {
         //事件循环组
         //为什么创建两个连接  一个只是为了接受连接  一个是为了处理请求
         EventLoopGroup bossGroup = new NioEventLoopGroup();
-        EventLoopGroup workGroup = new NioEventLoopGroup();
+        EventLoopGroup workGroup  = new NioEventLoopGroup();
         try {
             //简单启动服务端
             ServerBootstrap serverBootstrap = new ServerBootstrap();
