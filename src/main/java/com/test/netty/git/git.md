@@ -6,4 +6,8 @@ v1 version add a new feature
 
 branch v1_fix fix a bug
 
+
 v1 add new feature 2
+
+branch v1_fix fix a bug 2   
+
